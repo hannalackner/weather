@@ -1,0 +1,19 @@
+{
+    "name": "hannalackner/weather",
+    "description": "Weather",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hannalackner\\Weather\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hanna Lackner",
+            "email": "hlackner@schueler.hakzell.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
