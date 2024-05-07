@@ -15,7 +15,10 @@ Mit der Libary können die Wetterverhältnisse für einen Tag ausgelesen werden.
 ## How to use:
 
 1. persönliche Benutzereingabe über URL:
-schreibe in der Url ' /?year-month-day ' den gewünschten Tag.
+schreibe in der Url ' /?date=year-month-day ' den gewünschten Tag.
+```php
+http://localhost:8080/?date=2024-05-01
+```
 dann wird das passende Wetter für diesen Tag ausgegeben.
 
 2. in Index.php
